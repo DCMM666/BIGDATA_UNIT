@@ -6,7 +6,7 @@ public class lambda {
         MAX abc = new MAX(){
 
             @Override
-            public double MAX(double x, double y) {
+            public double MAX(double x, double y) {// 匿名内部类
                 return 0;
             }
         };
@@ -18,6 +18,7 @@ public class lambda {
         };
         MAX ABC = (double x, double y)->Math.max(x,y);
         System.out.println(DCMM.MAX(5.1,6.3));
+
         MAX m3=(double a,double b )-> Math.max(a,b);
         System.out.println(m3.MAX(2.11,3.22));
 

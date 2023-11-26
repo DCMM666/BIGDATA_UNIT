@@ -1,4 +1,6 @@
 package gw;
+import java.util.HashMap;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentSkipListMap;
 import java.util.concurrent.ConcurrentNavigableMap;
 
@@ -6,13 +8,13 @@ public class ConcurrentNavigableMapDEMO {
     public static void main(String[] args) {
                 //构建映射对象
                 ConcurrentNavigableMap<String,String> map=new ConcurrentSkipListMap<>();
-                map.put("Peter","a");
+                map.put("LAX","a");
                 map.put("Tom","b");
                 map.put("Jerry","c");
                 map.put("Frank","d");
                 map.put("Cinda","e");
-                map.put("Alice","f");
-                map.put("Jack","g");
+                map.put("DCMM","f");
+                map.put("MAC","g");
                 //从头部开始截取到指定位置  不包括指定位置
                 System.out.println(map.headMap("Jerry"));
                 //从指定的位置截取到尾部 包含指定位置
@@ -22,5 +24,4 @@ public class ConcurrentNavigableMapDEMO {
                 System.out.println(map);
             }
         }
-
 
