@@ -1,5 +1,5 @@
-import java.util.Queue;
-import java.util.Scanner;
+package BlockingQueue_UNIT;
+
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;
@@ -13,9 +13,9 @@ public class Blockingqueue {
         queue.remove();
         queue.offer("c", 3, TimeUnit.SECONDS);
         System.out.println(queue);
-        student a = new student();
+        students a = new students();
         a.eat();
-        Person b = new student();
+        Person b = new students();
         b.eat();
         Person c = new Person() {
             @Override
@@ -29,7 +29,7 @@ public class Blockingqueue {
 interface Person{
     public  void eat();
 }
-class student implements Person {
+class students implements Person {
 
     @Override
     public void eat() {
