@@ -18,7 +18,7 @@ public class CallableDemo {public static void main(String[] args) throws Executi
     es.shutdown();
 }
 }
-//泛型表示的是线程执行完之后返回的结果的类型
+
 class CallableThread implements Callable<Integer> {
     //call方法里面是写需要线程执行的业务
     @Override
