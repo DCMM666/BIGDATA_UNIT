@@ -1,14 +1,24 @@
 # BIGDATA_1
 
-#### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
 
-####
+# 应用大数据课程相关代码
+## 目录
+### 一、阻塞式队列
 1.Blockingqueue 
-2.Arrayblockingqueue
-3.mapdemo
-4.priorityblockingqueue
-
-
+2.Arrayblockingqueue 
+3.priorityblockingqueue
+### 二、并发映射
+1.ConcurrentHashMap	
+2.ConcurrentNavigableMap
+### 三、执行器服务
+1.ExecutorService	
+2.Runnable和Callable	
+3.ScheduledExecutorService	
+4.ForkJoin
+### 四、锁
+CountDownLatch
+CyclicBarrier
+Exchanger
+Semaphore
+### 五、原子性操作
+volatile
