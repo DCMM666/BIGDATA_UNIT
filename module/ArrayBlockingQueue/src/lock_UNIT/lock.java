@@ -1,4 +1,4 @@
-package gw;
+package lock_UNIT;
 public class lock {
        static  int i ;
     public static void main(String[] args) throws InterruptedException {

@@ -5,7 +5,7 @@
 ## 目录
 ### 一、阻塞式队列
 1.Blockingqueue 
-2.Arrayblockingqueue 
+2.Arrayblockingqueue linkedblockingqueue
 3.priorityblockingqueue
 ### 二、并发映射
 1.ConcurrentHashMap	

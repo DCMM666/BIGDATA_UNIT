@@ -1,4 +1,4 @@
-package gw;
+package Atomic_UNIT;
 
 public class VolatileDemo{
     private int i;

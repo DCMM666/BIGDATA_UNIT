@@ -1,9 +1,11 @@
+package BlockingQueue_UNIT;
+
 public class demoLambda {
     public static void main(String[] args) {
         Dog d=new Dog();
-        //cat1 a=new cat1();
+        //BlockingQueue_UNIT.cat1 a=new BlockingQueue_UNIT.cat1();
         //d.eat(a);
-        /*d.eat(new Cat() {
+        /*d.eat(new BlockingQueue_UNIT.Cat() {
             @Override
             public void eat(int a, double b) {
 

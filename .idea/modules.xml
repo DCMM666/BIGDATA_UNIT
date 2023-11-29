@@ -3,8 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BIGDATA_1.iml" filepath="$PROJECT_DIR$/BIGDATA_1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../TEST/TEST.iml" filepath="$PROJECT_DIR$/../TEST/TEST.iml" />
-      <module fileurl="file://$PROJECT_DIR$/module/ArrayBlockingQueue/mod.iml" filepath="$PROJECT_DIR$/module/ArrayBlockingQueue/mod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module/ArrayBlockingQueue/UINT.iml" filepath="$PROJECT_DIR$/module/ArrayBlockingQueue/UINT.iml" />
       <module fileurl="file://$PROJECT_DIR$/module/module.iml" filepath="$PROJECT_DIR$/module/module.iml" />
     </modules>
   </component>
